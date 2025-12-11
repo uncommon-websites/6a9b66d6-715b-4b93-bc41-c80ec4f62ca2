@@ -1,76 +1,52 @@
-<section class="py-20 px-6">
+<section id="team" class="py-20 px-6">
   <div class="max-w-7xl mx-auto bg-[#111] rounded-[2.5rem] overflow-hidden text-white grid grid-cols-1 lg:grid-cols-2">
     <div class="p-12 md:p-20 flex flex-col justify-between min-h-[500px]">
       <div>
-        <div class="text-2xl font-bold mb-16">coinbase</div>
+        <div class="text-sm font-medium mb-4 text-gray-400 uppercase tracking-wider">Investor Perspective</div>
         <h2 class="text-4xl md:text-5xl font-medium tracking-tight leading-[1.1] mb-12">
-          Faster, cheaper Bitcoin transfers with Lightspark
+          The rare combination of stability and growth
         </h2>
       </div>
       <div>
-        <p class="text-lg text-gray-400 mb-4 leading-relaxed">
-          "We're excited to partner with Lightspark to eliminate payment barriers and enable faster and cheaper bitcoin transactions." <span class="text-gray-500">Shan Aggarwal, VP of Corporate and Business Development</span>
+        <p class="text-lg text-gray-400 mb-6 leading-relaxed">
+          "B² Fund bridges a gap we've been looking to fill—stable, cash-flowing businesses with real tech upside. Their AI deployment model is proven, and the physical economy opportunity is massive."
         </p>
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 rounded-full bg-gray-700"></div>
+          <div>
+            <div class="text-white font-medium">Michael Chen</div>
+            <div class="text-sm text-gray-500">Managing Partner, Apex Capital</div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="relative bg-[#1a1a1a] min-h-[400px] lg:min-h-auto flex items-end justify-center overflow-hidden pt-12">
-      <!-- Phone Mockup -->
-      <div class="relative w-72 bg-white rounded-t-[3rem] shadow-2xl overflow-hidden translate-y-10">
-        <div class="bg-gray-50 p-6 h-[500px]">
-           <div class="flex items-center gap-4 mb-8">
-             <div class="w-6 h-6 rounded-full bg-gray-200"></div>
-             <div class="text-sm font-medium text-black">Select network</div>
-           </div>
-           <div class="space-y-4">
-             <div class="flex items-center justify-between p-3 bg-white rounded-xl shadow-sm border border-gray-100">
-               <div class="flex items-center gap-3">
-                 <div class="w-8 h-8 rounded-full bg-orange-500"></div>
-                 <div class="text-sm font-medium text-black">Bitcoin</div>
-               </div>
-               <div class="text-xs text-gray-500">~31 min</div>
-             </div>
-             <div class="flex items-center justify-between p-3 bg-blue-50 rounded-xl border border-blue-200">
-               <div class="flex items-center gap-3">
-                 <div class="w-8 h-8 rounded-full bg-yellow-400 flex items-center justify-center">⚡</div>
-                 <div class="text-sm font-medium text-black">Lightning</div>
-               </div>
-               <div class="text-xs text-blue-600">~14 sec</div>
-             </div>
-             <div class="flex items-center justify-between p-3 bg-white rounded-xl shadow-sm border border-gray-100">
-               <div class="flex items-center gap-3">
-                 <div class="w-8 h-8 rounded-full bg-blue-600"></div>
-                 <div>
-                   <div class="text-sm font-medium text-black">Base</div>
-                   <div class="text-[10px] text-gray-400">Supports cbBTC</div>
-                 </div>
-               </div>
-               <div class="text-xs text-gray-500">~17 sec</div>
-             </div>
-             <div class="flex items-center justify-between p-3 bg-white rounded-xl shadow-sm border border-gray-100">
-               <div class="flex items-center gap-3">
-                 <div class="w-8 h-8 rounded-full bg-purple-500"></div>
-                 <div class="text-sm font-medium text-black">Solana</div>
-               </div>
-               <div class="text-xs text-gray-500">~27 sec</div>
-             </div>
-             <div class="flex items-center justify-between p-3 bg-white rounded-xl shadow-sm border border-gray-100">
-               <div class="flex items-center gap-3">
-                 <div class="w-8 h-8 rounded-full bg-blue-400"></div>
-                 <div>
-                   <div class="text-sm font-medium text-black">Arbitrum</div>
-                   <div class="text-[10px] text-gray-400">Supports cbBTC</div>
-                 </div>
-               </div>
-               <div class="text-xs text-gray-500">~4 min</div>
-             </div>
-             <div class="flex items-center justify-between p-3 bg-white rounded-xl shadow-sm border border-gray-100">
-               <div class="flex items-center gap-3">
-                 <div class="w-8 h-8 rounded-full bg-gray-400"></div>
-                 <div class="text-sm font-medium text-black">Ethereum</div>
-               </div>
-               <div class="text-xs text-gray-500">~3 min</div>
-             </div>
-           </div>
+    <div class="relative bg-[#1a1a1a] min-h-[400px] lg:min-h-auto flex items-center justify-center overflow-hidden p-12">
+      <!-- Founders -->
+      <div class="w-full max-w-md space-y-6">
+        <div class="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="w-16 h-16 rounded-full bg-gray-700 flex items-center justify-center text-white text-xl font-bold">RB</div>
+            <div>
+              <div class="text-white font-semibold text-lg">Ryan Berger</div>
+              <div class="text-sm text-gray-400">Co-Founder</div>
+            </div>
+          </div>
+          <p class="text-sm text-gray-400 leading-relaxed">
+            Former PE operator with 10+ years modernizing traditional businesses through technology.
+          </p>
+        </div>
+        
+        <div class="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="w-16 h-16 rounded-full bg-gray-700 flex items-center justify-center text-white text-xl font-bold">TV</div>
+            <div>
+              <div class="text-white font-semibold text-lg">Theo VdM</div>
+              <div class="text-sm text-gray-400">Co-Founder</div>
+            </div>
+          </div>
+          <p class="text-sm text-gray-400 leading-relaxed">
+            AI/ML expert who built automation systems for Fortune 500 service operations.
+          </p>
         </div>
       </div>
     </div>

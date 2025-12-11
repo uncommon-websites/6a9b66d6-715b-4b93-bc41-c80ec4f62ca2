@@ -7,23 +7,25 @@
     <!-- Logo -->
     <a href="/" class="flex items-center gap-2 text-2xl font-bold tracking-tight text-black">
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6">
-        <path d="M12 2L14.5 9.5H22L16 14L18.5 21.5L12 17L5.5 21.5L8 14L2 9.5H9.5L12 2Z" fill="black"/>
+        <rect x="4" y="4" width="7" height="7" fill="black" rx="1"/>
+        <rect x="13" y="4" width="7" height="7" fill="black" rx="1"/>
+        <rect x="4" y="13" width="7" height="7" fill="black" rx="1"/>
+        <rect x="13" y="13" width="7" height="7" fill="black" rx="1"/>
       </svg>
-      lightspark
+      B² Fund
     </a>
 
     <!-- Nav Links -->
     <nav class="hidden md:flex items-center gap-8">
-      <a href="#" class="text-sm font-medium text-gray-600 hover:text-black transition-colors">Solutions</a>
-      <a href="#" class="text-sm font-medium text-gray-600 hover:text-black transition-colors">Industries</a>
-      <a href="#" class="text-sm font-medium text-gray-600 hover:text-black transition-colors">Company</a>
+      <a href="#approach" class="text-sm font-medium text-gray-600 hover:text-black transition-colors">Approach</a>
+      <a href="#portfolio" class="text-sm font-medium text-gray-600 hover:text-black transition-colors">Portfolio</a>
+      <a href="#team" class="text-sm font-medium text-gray-600 hover:text-black transition-colors">Team</a>
     </nav>
 
     <!-- Right Actions -->
     <div class="flex items-center gap-6">
-      <a href="#" class="hidden md:block text-sm font-medium text-gray-600 hover:text-black transition-colors">View Docs</a>
-      <a href="#" class="hidden md:block text-sm font-medium text-gray-600 hover:text-black transition-colors">Log in</a>
-      <a href="#" class="text-sm font-medium text-black hover:text-gray-600 transition-colors">Contact</a>
+      <a href="#investors" class="hidden md:block text-sm font-medium text-gray-600 hover:text-black transition-colors">For Investors</a>
+      <a href="#contact" class="text-sm font-medium text-black hover:text-gray-600 transition-colors">Get in Touch</a>
     </div>
   </div>
 </header>
